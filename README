@@ -6,7 +6,7 @@ h1. Welcome to PlayIP
       alert(data);
     }
 </script>
-<script type="text/javascript" src="http://jsonip.appspot.com/?callback=getip">
+<script type="text/javascript" src="http://play-ip.appspot.com/callback=getip">
 </script>
 
 **JQuery**
