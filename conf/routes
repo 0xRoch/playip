@@ -3,7 +3,8 @@
 # ~~~~
 
 # Home page
-GET     /                                       Application.index
+*     	/                                       Application.index
+*		/callback={callback}					Application.callback
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

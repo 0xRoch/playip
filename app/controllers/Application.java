@@ -5,15 +5,17 @@ import play.mvc.*;
 
 import java.util.*;
 
-import models.*;
-
 public class Application extends Controller {
 
     public static void index() {
-		List<String> res = new ArrayList();
 		String ip = request.remoteAddress;
-    	String address = request.remoteAddress;
-    	renderJSON(ip);
+    	renderText(ip);
+    }
+    
+    public static void callback(String callback) {
+    	String ip = request.remoteAddress;
+    	String res = callback + "(" + ip + ");";
+    	renderText(res);
     }
 
 }
