@@ -1,0 +1,18 @@
+h1. Welcome to PlayIP
+
+** Javascript **
+bc..
+<script type="text/javascript">
+    function getip(data){
+      alert(data);
+    }
+</script>
+<script type="text/javascript" src="http://jsonip.appspot.com/?callback=getip">
+</script>
+
+** JQuery **
+bc..
+$.getJSON('http://play-ip.appspot.com',
+        function(data){
+          alert(data);
+});
