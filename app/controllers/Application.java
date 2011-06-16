@@ -14,7 +14,7 @@ public class Application extends Controller {
     
     public static void callback(String callback) {
     	String ip = request.remoteAddress;
-    	String res = callback + "(" + ip + ");";
+    	String res = callback + "('" + ip + "');";
     	renderText(res);
     }
 
