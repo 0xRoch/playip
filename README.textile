@@ -1,7 +1,6 @@
 h1. Welcome to PlayIP
 
 ** Javascript **
-bc..
 <script type="text/javascript">
     function getip(data){
       alert(data);
@@ -11,7 +10,7 @@ bc..
 </script>
 
 ** JQuery **
-bc..
+
 $.getJSON('http://play-ip.appspot.com',
         function(data){
           alert(data);
