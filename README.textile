@@ -1,6 +1,6 @@
 h1. Welcome to PlayIP
 
-** Javascript **
+**Javascript**
 <script type="text/javascript">
     function getip(data){
       alert(data);
@@ -9,7 +9,7 @@ h1. Welcome to PlayIP
 <script type="text/javascript" src="http://jsonip.appspot.com/?callback=getip">
 </script>
 
-** JQuery **
+**JQuery**
 
 $.getJSON('http://play-ip.appspot.com',
         function(data){
